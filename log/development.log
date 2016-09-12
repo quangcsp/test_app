@@ -4233,3 +4233,1149 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 26ms (Views: 21.3ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:04:47 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 292ms (Views: 249.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:04:50 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:04:57 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:05:03 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (103.2ms)
+Completed 200 OK in 4707ms (Views: 4506.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:05:14 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:06:13 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:06:46 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (148344.5ms)
+  Rendered microposts/new.html.erb within layouts/application (156577.8ms)
+Completed   in 156587ms (ActiveRecord: 1.1ms)
+
+
+  Rendered microposts/new.html.erb within layouts/application (148551.8ms)
+  Rendered microposts/new.html.erb within layouts/application (71160.1ms)
+  Rendered microposts/new.html.erb within layouts/application (132172.9ms)
+  Rendered microposts/new.html.erb within layouts/application (37119.5ms)
+Completed   in 149656ms (ActiveRecord: 0.5ms)
+
+
+Completed   in 72065ms (ActiveRecord: 0.4ms)
+
+
+Completed   in 132627ms (ActiveRecord: 0.5ms)
+
+
+Completed   in 40027ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:07:46 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 582ms (Views: 538.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:07:49 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (165.1ms)
+  Rendered microposts/new.html.erb within layouts/application (166.6ms)
+Completed 200 OK in 189ms (Views: 182.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:08:32 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (113565.0ms)
+  Rendered microposts/new.html.erb within layouts/application (113566.5ms)
+Completed   in 113600ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:11:13 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.7ms)
+  Rendered microposts/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.8ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+... :user_id, options_for_select(|'User.first.name'...'User.las...
+...                               ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:21: syntax error, unexpected ')'
+...irst.name'...'User.last.name'|) );@output_buffer.safe_append...
+...                               ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/microposts/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/microposts/_form.html.erb:21: syntax error, unexpected ')'
+app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__2572195416022840847_47232496118580'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.1ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:11:31 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (15.8ms)
+  Rendered microposts/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 213ms (Views: 183.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:12:00 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (89652.0ms)
+  Rendered microposts/new.html.erb within layouts/application (89653.5ms)
+Completed   in 89685ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:13:42 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.7ms)
+  Rendered microposts/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:21: syntax error, unexpected ')'
+...s_for_select(User.first.name..) );@output_buffer.safe_append...
+...                               ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/microposts/_form.html.erb:21: syntax error, unexpected ')'
+app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___977392274567644937_47382169709440'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.1ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:14:42 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (21.5ms)
+  Rendered microposts/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 197ms (Views: 179.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:21:58 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.8ms)
+  Rendered microposts/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:21: syntax error, unexpected ')', expecting ']'
+....id","t"],["User.last.id","l"]) );@output_buffer.safe_append...
+...                               ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/microposts/_form.html.erb:21: syntax error, unexpected ')', expecting ']'
+app/views/microposts/_form.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/_form.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/microposts/_form.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___2942555365544109735_47200253763980'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.3ms)
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:24:07 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 187ms (Views: 162.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:24:10 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (130.4ms)
+  Rendered microposts/new.html.erb within layouts/application (132.6ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x005587c80ccfd8>:0x007f2bdc071098>):
+    18: 
+    19: <div class="field">
+    20:     <%= f.label :user_id %>
+    21:     <%= f.select :user_id, options_for_select(User.pluck(id)) %>
+    22:   </div>
+    23: 
+    24:   <div class="actions">
+  
+app/views/microposts/_form.html.erb:21:in `block in _app_views_microposts__form_html_erb__788028825051372070_69913175937920'
+app/views/microposts/_form.html.erb:1:in `_app_views_microposts__form_html_erb__788028825051372070_69913175937920'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__2241962149481575110_69913175887200'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.5ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:24:44 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  Rendered microposts/_form.html.erb (4.8ms)
+  Rendered microposts/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:26:45 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__1603561037371499144_46960216148020'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:26:53 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__1603561037371499144_46960200171660'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:26:54 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.8ms)
+  Rendered microposts/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__1603561037371499144_46960210417260'
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:26:56 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 227ms (Views: 225.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:26:58 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:23: syntax error, unexpected '<'
+app/views/microposts/_form.html.erb:27: unknown regexp options - dv
+app/views/microposts/_form.html.erb:28: unterminated string meets end of file
+app/views/microposts/_form.html.erb:28: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__1603561037371499144_70045380163020'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:34:27 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.9ms)
+  Rendered microposts/new.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__2169694907320458501_47281797586560'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:44 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998850641260'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:46 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (10.6ms)
+  Rendered microposts/new.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998854602040'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:47 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.5ms)
+  Rendered microposts/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998849976680'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:47 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.8ms)
+  Rendered microposts/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998849007280'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:48 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998851579980'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:39:48 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb__4368425863106631568_46998853608280'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:48 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.5ms)
+  Rendered microposts/new.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198409240640'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:49 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.8ms)
+  Rendered microposts/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198393555160'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:49 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.7ms)
+  Rendered microposts/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198404032340'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:50 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198406269900'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:50 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.8ms)
+  Rendered microposts/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198408322820'
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:50 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.9ms)
+  Rendered microposts/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_47198387070800'
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:40:54 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 219ms (Views: 217.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:40:57 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.1ms)
+  Rendered microposts/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+  <div class="actions">
+    <%= f.submit );@output_buffer.safe_append='
+  </i
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/microposts/_form.html.erb:24: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/microposts/_form.html.erb:29: unknown regexp options - dv
+app/views/microposts/_form.html.erb:30: unterminated string meets end of file
+app/views/microposts/_form.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___3629219648754107150_70273523547660'
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:41:00 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:42:19 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 191ms (Views: 167.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:42:21 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  Rendered microposts/_form.html.erb (113.2ms)
+  Rendered microposts/new.html.erb within layouts/application (114.4ms)
+Completed 200 OK in 132ms (Views: 128.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-09-12 10:42:55 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ykwc5jwqqcbFYM1YXK2iIeWIJO30NzO331Xmt5qnda1Kl7WfKPY7vEsK7UWsIX0dldhZHAmhpovLLzqLtes6A==", "micropost"=>{"content"=>"fghjk", "user_id"=>"10"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (110.1ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "fghjk"], ["user_id", 10], ["created_at", 2016-09-12 03:42:55 UTC], ["updated_at", 2016-09-12 03:42:55 UTC]]
+  [1m[35m (90.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/9
+Completed 302 Found in 205ms (ActiveRecord: 200.6ms)
+
+
+Started GET "/microposts/9" for 127.0.0.1 at 2016-09-12 10:42:55 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mMicropost Load (0.5ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 17.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-09-12 10:43:02 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 97ms (Views: 95.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/10" for 127.0.0.1 at 2016-09-12 10:43:04 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 10]]
+  Rendered users/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 58ms (Views: 52.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/10" for 127.0.0.1 at 2016-09-12 10:44:13 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 10]]
+  Rendered users/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 179ms (Views: 158.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:44:19 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:44:21 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  Rendered microposts/_form.html.erb (16.5ms)
+  Rendered microposts/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:44:37 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  Rendered microposts/_form.html.erb (24.8ms)
+  Rendered microposts/new.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 208ms (Views: 177.1ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:49:54 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (26.2ms)
+  Rendered microposts/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 208ms (Views: 175.0ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-09-12 10:50:52 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zyTmtk0SICS/7jbZWtd/DT1fchYob+L83NY+g73DYMLUvYlpCPAJ46RCyb+T7db6WwpAY9Pw1kt86wCIEo+Fsg==", "micropost"=>{"content"=>"hgu", "user_id"=>"10"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hgu"], ["user_id", 10], ["created_at", 2016-09-12 03:50:52 UTC], ["updated_at", 2016-09-12 03:50:52 UTC]]
+  [1m[35m (278.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/10
+Completed 302 Found in 283ms (ActiveRecord: 278.8ms)
+
+
+Started GET "/microposts/10" for 127.0.0.1 at 2016-09-12 10:50:52 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/microposts/10" for 127.0.0.1 at 2016-09-12 10:52:30 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 177ms (Views: 156.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-09-12 10:52:33 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 27ms (Views: 23.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:52:35 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.0ms)
+  Rendered microposts/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:22: syntax error, unexpected ':', expecting ')'
+...ser_id, @all_users, :id, :name: true) );@output_buffer.safe_...
+...                               ^):
+  
+app/views/microposts/_form.html.erb:22: syntax error, unexpected ':', expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___2598034575592544678_70236727398360'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:53:31 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (23.9ms)
+  Rendered microposts/new.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 195ms (Views: 177.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:54:05 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (24.5ms)
+  Rendered microposts/new.html.erb within layouts/application (26.5ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass
+Did you mean?  tap):
+    19: <div class="field">
+    20:     <%= f.label :user_id %>
+    21:     <!-- <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %> -->
+    22:     <%= collection_select(:micropost, :user_id, @users, :id, :name,prompt: true) %>
+    23:     <!-- <%= f.select :user_id, options_for_select(User.pluck(:id)) %> cach 2-->
+    24:     <!-- <%= f.select :user_id, options_for_select(User.all.collect {|p| [ p.name, p.id ] }) %> -->
+    25:   </div>
+  
+app/views/microposts/_form.html.erb:22:in `block in _app_views_microposts__form_html_erb__3174405688354800579_47209538399820'
+app/views/microposts/_form.html.erb:1:in `_app_views_microposts__form_html_erb__3174405688354800579_47209538399820'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___40923458781273437_47209538595680'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.5ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:54:28 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (24.1ms)
+  Rendered microposts/new.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 208ms (Views: 177.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:55:10 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered microposts/_form.html.erb (23.4ms)
+  Rendered microposts/new.html.erb within layouts/application (24.9ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `merge' for :name:Symbol):
+    19: <div class="field">
+    20:     <%= f.label :user_id %>
+    21:     <!-- <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %> -->
+    22:     <%= f.collection_select(:micropost, :user_id, @all_users, :id, :name,prompt: true) %>
+    23:     <!-- <%= f.select :user_id, options_for_select(User.pluck(:id)) %> cach 2-->
+    24:     <!-- <%= f.select :user_id, options_for_select(User.all.collect {|p| [ p.name, p.id ] }) %> -->
+    25:   </div>
+  
+app/views/microposts/_form.html.erb:22:in `block in _app_views_microposts__form_html_erb__1591007178766261573_46953375001340'
+app/views/microposts/_form.html.erb:1:in `_app_views_microposts__form_html_erb__1591007178766261573_46953375001340'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___777543890812640264_46953375217660'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.2ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:56:09 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (26.5ms)
+  Rendered microposts/new.html.erb within layouts/application (28.7ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 6, expected 1..2)):
+    20:     <%= f.label :user_id %>
+    21:     <!-- <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %> -->
+    22:     <!-- <%= collection_select(:micropost, :user_id, @all_users, :id, :name,prompt: true) %> -->
+    23:     <%= f.select :user_id, options_for_select(:micropost, :user_id, @all_users, :id, :name,prompt: true) %>
+    24:     <!-- <%= f.select :user_id, options_for_select(User.pluck(:id)) %> cach 2-->
+    25:     <!-- <%= f.select :user_id, options_for_select(User.all.collect {|p| [ p.name, p.id ] }) %> -->
+    26:   </div>
+  
+app/views/microposts/_form.html.erb:23:in `block in _app_views_microposts__form_html_erb___2172457064840901703_47061567227100'
+app/views/microposts/_form.html.erb:1:in `_app_views_microposts__form_html_erb___2172457064840901703_47061567227100'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___4228335211554562031_47061567460640'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.4ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:56:30 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (28.8ms)
+  Rendered microposts/new.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 214ms (Views: 196.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-09-12 10:57:00 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:57:09 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (15.2ms)
+  Rendered microposts/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 48ms (Views: 43.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:58:15 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (0.9ms)
+  Rendered microposts/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/quangnguyen/ruby/test_app/app/views/microposts/_form.html.erb:21: syntax error, unexpected tSYMBEG, expecting ')'
+...t, :user_id, User.all.collect :id, :name,prompt: true) );@ou...
+...                               ^):
+  
+app/views/microposts/_form.html.erb:21: syntax error, unexpected tSYMBEG, expecting ')'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___4298399423889267787_47239564555220'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.3ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 10:58:59 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (17.5ms)
+  Rendered microposts/new.html.erb within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 13.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass
+Did you mean?  tap):
+    18: 
+    19: <div class="field">
+    20:     <%= f.label :user_id %>
+    21:     <%= collection_select(:micropost, :user_id, @users, :id, :name,prompt: true) %>
+    22:     <!-- <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %> -->
+    23:     <!-- <%= f.select :user_id, options_for_select(User.pluck(:id)) %> cach 2-->
+    24:     <!-- <%= f.select :user_id, options_for_select(User.all.collect {|p| [ p.name, p.id ] }) %> -->
+  
+app/views/microposts/_form.html.erb:21:in `block in _app_views_microposts__form_html_erb__3907031965449063726_47005797652300'
+app/views/microposts/_form.html.erb:1:in `_app_views_microposts__form_html_erb__3907031965449063726_47005797652300'
+app/views/microposts/new.html.erb:3:in `_app_views_microposts_new_html_erb___4187937283609385592_47005797898840'
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/quangnguyen/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.7ms)
+Started GET "/microposts/new" for 127.0.0.1 at 2016-09-12 11:02:33 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (25.7ms)
+  Rendered microposts/new.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 208ms (Views: 189.2ms | ActiveRecord: 1.6ms)
+
+

@@ -18,7 +18,8 @@
 
 <div class="field">
     <%= f.label :user_id %>
-    <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %>
+    <!-- <%= f.select :user_id, options_for_select(User.first.id..User.last.id) %> -->
+    <%= f.select :user_id, options_for_select(User.all.collect {|p| [ p.name, p.id ] }) %>
   </div>
 
   <div class="actions">
